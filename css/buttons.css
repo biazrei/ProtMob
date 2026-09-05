@@ -3,3 +3,23 @@ h1 {
     color: blue; 
 
 }
+
+.button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button--primary {
+  background-color: var(--cor-texto);
+  color: white;
+  border: none;
+}
+
+.button--secondary {
+  background-color: transparent;
+  color: var(--cor-texto);
+  border: 1px solid var(--cor-texto);
+}
