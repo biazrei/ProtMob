@@ -3,3 +3,16 @@
   --fundo-padrao: #f4f4f4;
   --cor-texto: #333333;
 }
+
+/*Bia*/ 
+:root {
+  --color-background: #f7f7f7;
+  --color-white: #ffffff;
+
+  --color-text: #111111;
+  --color-text-secondary: #6b6b6b;
+
+  --color-border: #d9d9d9;
+
+  --color-button-primary: #3e7e7c;
+}
