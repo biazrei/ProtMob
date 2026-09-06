@@ -1,11 +1,15 @@
 
 
 .button {
-  width: 100%;
-  padding: 15px;
+
+  background-color: var(--color-background);
   border-radius: 5px;
-  text-align: center;
-  font-weight: bold;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+
+  padding:8px 15px;
+  font: var(-font-size-text);
+  font-weight: var(--font-weight-normal);
 }
 
 .button--primary {
