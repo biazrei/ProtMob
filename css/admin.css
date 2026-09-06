@@ -1,0 +1,128 @@
+/*Melissa*/
+
+.admin-layout {
+    display: flex;
+    gap: var(--spacing-large);
+    padding: var(--spacing-large);
+    background-color: var(--color-background);
+    min-height: calc(100vh - 80px);
+}
+
+.admin-sidebar {
+  width: 220px;
+  background-color: var(--color-white);
+  padding: var(--spacing-medium);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.admin-sidebar__title {
+  font-size: var(--font-size-subtitle);
+  margin-bottom: var(--spacing-medium);
+}
+
+.admin-sidebar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar__item {
+  margin-bottom: var(--spacing-small);
+}
+
+.admin-sidebar__link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: var(--font-size-text);
+}
+
+.admin-sidebar__link--active {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-button-primary);
+}
+
+.admin-content {
+  flex: 1;
+}
+
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-medium);
+  margin-bottom: var(--spacing-large);
+}
+
+.card--stat {
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+
+.card__stat-label {
+  display: block;
+  font-size: var(--font-size-small);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-small);
+}
+
+.card__stat-value {
+  font-size: var(--font-size-subtitle);
+  font-weight: var(--font-weight-bold);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--spacing-medium);
+}
+
+.admin-table th, .admin-table td {
+  padding: var(--spacing-small) var(--spacing-medium);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--font-size-text);
+}
+
+.admin-table__actions {
+  display: flex;
+  gap: var(--spacing-small);
+}
+
+.status-badge {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: var(--font-size-small);
+}
+
+.search-container {
+  padding: var(--spacing-large);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.search-container__title {
+  font-size: var(--font-size-title);
+  margin-bottom: var(--spacing-large);
+}
+
+.search-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+}
+
+.card--horizontal {
+  display: flex;
+  gap: var(--spacing-medium);
+  border: 1px solid var(--color-border);
+  align-items: center;
+}
+
+.card__image-placeholder {
+  width: 100px;
+  height: 70px;
+  background-color: var(--color-border);
+  border-radius: 4px;
+}
