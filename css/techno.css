@@ -1,4 +1,7 @@
 gabrielle
+body {
+    background-color: red;
+} 
 .techno {
   pading: var(--spacing-large);
 }
