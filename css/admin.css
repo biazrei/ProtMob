@@ -126,3 +126,111 @@
   border-radius: 4px;
 }
 */
+
+.admin {
+    background-color: var(--color-background);
+    min-height: 100vh;
+    padding-bottom: var(--spacing-large);
+}
+
+.admin__content {
+    padding: var(--spacing-medium);
+}
+
+.admin__title {
+    font-size: var(--font-size-text);
+    font-weight: var(--font-weight-bold);
+    margin: 0 0 var(--spacing-medium);
+}
+
+.menu {
+    margin: 0 var(--spacing-medium);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-small) var(--spacing-medium);
+    background-color: var(--color-background);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+}
+
+.menu__toggle {
+    background: none;
+    border: none;
+    color: var(--color-text);
+}
+
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.menu__item {
+    height: 8px;
+    margin-bottom: var(--spacing-small);
+    border-radius: 8px;
+    background-color: var(--color-border);
+}
+
+.menu--closed .menu__list {
+    display: none;
+}
+
+.indicators {
+    display: flex;
+    gap: var(--spacing-small);
+    margin: var(--spacing-medium);
+}
+
+.indicators__item {
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    background-color: #b0b0b0;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list__label {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    margin: 0 0 var(--spacing-small);
+    color: var(--color-text);
+}
+
+.list__search {
+    margin-bottom: var(--spacing-medium);
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-small);
+    padding: var(--spacing-small) 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.list__text {
+    flex: 1;
+    display: flex;
+    gap: var(--spacing-small);
+}
+
+.list__line {
+    flex: 1;
+    height: 8px;
+    border-radius: 8px;
+    background-color: var(--color-border);
+}
