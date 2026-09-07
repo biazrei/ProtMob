@@ -11,147 +11,38 @@
     <link rel="stylesheet" href="../css/card.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/techno.css">
+  
+    <link rel="stylesheet" href="../css/category-link.css">
+    <link rel="stylesheet" href="../css/recommendation-list.css">
 </head>
 <body>
-
 <header class="header">
+
     <div class="header__left">
-        <button class="header__menu" aria-label="Abrir menu">☰</button>
         <div class="header__logo">HABIT</div>
+
+        <nav class="navigation">
+            <a href="#">Início</a>
+            <a href="#">Páginas</a>
+            <a href="#">Destaques</a>
+            <a href="#">Assinar</a>
+            <a href="#">Admin</a>
+        </nav>
     </div>
 
     <div class="header__right">
-        <button class="header__search" aria-label="Buscar"></button>
-        <button class="header__profile" aria-label="Perfil"></button>
-    </div>
-</header>
+        <input
+            class="header__search"
+            type="text"
+            placeholder="Buscar..."
+        >
 
-<main>
-
-<section class="home">
-
-    <section class="home__banner">
-        <div class="home__banner-image"></div>
-        <div class="home__banner-content">
-            <p class="home__banner-category">DESTAQUE</p>
-            <h1 class="home__banner-title">Título principal da publicação</h1>
-            <p class="home__banner-text">Texto da publicação em destaque.</p>
-        </div>
-    </section>
-
-    <section class="home__topics">
-        <h2 class="home__section-title">Navegue por tópicos de interesse</h2>
-
-        <div class="home__topic-list">
-            <button class="button button--secondary">Música</button>
-            <button class="button button--secondary">Tecnologia</button>
-            <button class="button button--secondary">Cultura</button>
-            <button class="button button--secondary">Lifestyle</button>
-        </div>
-    </section>
-
-    <section class="home__categories">
-        <h2 class="home__section-title">Categorias populares</h2>
-
-        <div class="home__category-list">
-            <a href="#techno" class="card">
-                <div class="card__image home__card-image"></div>
-                <h3 class="card__title">Techno</h3>
-            </a>
-
-            <a href="#" class="card">
-                <div class="card__image home__card-image"></div>
-                <h3 class="card__title">Cultura</h3>
-            </a>
-        </div>
-    </section>
-
-    <section class="home__featured">
-        <h2 class="home__section-title">Posts em destaque</h2>
-
-        <a href="#" class="card card--featured">
-            <div class="card__image home__featured-image"></div>
-
-            <div class="card__content">
-                <h3 class="card__title">Título da postagem em destaque</h3>
-                <p class="card__text">Texto da postagem em destaque.</p>
-            </div>
-        </a>
-    </section>
-
-    <section class="home__editors">
-        <h2 class="home__section-title">Escolha dos editores</h2>
-
-        <div class="home__editor-list">
-
-            <a href="#" class="card">
-                <div class="card__image home__card-image"></div>
-                <h3 class="card__title">Título da postagem</h3>
-            </a>
-
-            <a href="#" class="card">
-                <div class="card__image home__card-image"></div>
-                <h3 class="card__title">Título da postagem</h3>
-            </a>
-
-        </div>
-    </section>
-
-</section>
-
-<section class="techno" id="techno">
-
-    <h1 class="techno__title">CATEGORIA: TECHNO</h1>
-
-    <div class="techno__filters">
-        <button class="button techno__filter">⌕</button>
-        <button class="button techno__filter">≡</button>
-        <button class="button techno__filter">↑</button>
-        <button class="button techno__filter">☷</button>
+        <button class="button button--secondary">Buscar</button>
+        <button class="button button--secondary">Entrar</button>
     </div>
 
-    <section class="techno__posts">
-
-        <a href="#" class="card">
-            <div class="card__image techno__card-image"></div>
-            <h2 class="card__title">Título da postagem</h2>
-        </a>
-
-        <a href="#" class="card">
-            <div class="card__image techno__card-image"></div>
-            <h2 class="card__title">Título da postagem</h2>
-        </a>
-
-        <a href="#" class="card">
-            <div class="card__image techno__card-image"></div>
-            <h2 class="card__title">Título da postagem</h2>
-        </a>
-
-        <a href="#" class="card">
-            <div class="card__image techno__card-image"></div>
-            <h2 class="card__title">Título da postagem</h2>
-        </a>
-
-        <a href="#" class="card">
-            <div class="card__image techno__card-image"></div>
-            <h2 class="card__title">Título da postagem</h2>
-        </a>
-
-        <a href="#" class="card">
-            <div class="card__image techno__card-image"></div>
-            <h2 class="card__title">Título da postagem</h2>
-        </a>
-
-    </section>
-
-    <div class="techno__load">
-        <button class="button button--secondary techno__load-button">
-            Carregar mais
-        </button>
-    </div>
-
-</section>
+</header>         
+    
 <h2>Card normal</h2>
 
 <a href="#" class="card">
@@ -183,6 +74,20 @@
     <a href="#">Lamp</a>
     <a href="#">Books</a>
 </footer>
+<a href="#" class="category-link">Tecnologia</a>
+<a href="#" class="category-link">Design</a>
+<a href="#" class="category-link">Games</a>
+<a href="#" class="category-link">Negócios</a>
+
+<section class="recommendation">
+    <h3 lass="recommendation__title">Recomendações</h3>
+
+    <ul class="recommendation__list">
+        <li><a href="#">Título da recomendação 1</a></li>
+        <li><a href="#">Título da recomendação 2</a></li>
+        <li><a href="#">Título da recomendação 3</a></li>
+    </ul>
+</section>
 
 </body>
 </html>
