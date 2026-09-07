@@ -6,3 +6,49 @@
 
     padding: var(--spacing-medium);
 }
+
+.header_left {
+    display: flez;
+    align-items: center;
+    gap: var(--spacing-medium);
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-small);
+}
+
+.header_logo {
+    font-size: var(--font-size-text);
+    fontweight: var(--font-weight-bold);
+    letter-spacing: 3px;
+}
+
+.header_menu {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header__search {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header__profile {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header_menu,
+.header_search,
+.header_profile {
+    padding: 0]
+    color: var(var--color-text);
+}
