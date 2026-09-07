@@ -14,6 +14,9 @@
   
     <link rel="stylesheet" href="../css/category-link.css">
     <link rel="stylesheet" href="../css/recommendation-list.css">
+    <link rel="stylesheet" href="../css/featured-post.css">
+   <link rel="stylesheet" href="../css/input.css">
+   <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
 <header class="header">
@@ -43,21 +46,25 @@
 
 </header>         
     
-<h2>Card normal</h2>
-
 <a href="#" class="card">
-    <img class="card__image" src="../docs/image.png" alt="Imagem">
-    <h3 class="card__title">Categoria</h3>
-</a>
-
-<h2>Card Featured</h2>
-
-<a href="#" class="card card--featured">
     <img class="card__image" src="../docs/image.png" alt="Imagem">
 
     <div class="card__content">
+        <p class="card__date">12/08/2026</p>
         <h3 class="card__title">Título da postagem</h3>
-        <p class="card__text">Texto da postagem...</p>
+    </div>
+</a>
+
+
+<h2>Card Featured</h2>
+
+<a href="#" class="featured-post">
+    <img class="featured-post__image" src="../docs/image.png" alt="Imagem">
+
+    <div class="featured-post__content">
+        <p class="featured-post__date">12/08/2026</p>
+        <h3 class="featured-post__title">Título da postagem</h3>
+        <p class="featured-post__reading-time">5 min de leitura</p>
     </div>
 </a>
 
@@ -89,5 +96,34 @@
     </ul>
 </section>
 
+<h2>Input</h2>
+
+<input
+    class="input"
+    type="text"
+    placeholder="Digite seu email"
+/>
+
+
+
+<h2>Form</h2>
+
+<form class="form">
+    <input
+        class="input"
+        type="email"
+        placeholder="Digite seu email"
+    >
+
+    <input
+        class="input"
+        type="password"
+        placeholder="Digite sua senha"
+    >
+
+    <button class="button button--primary" type="submit">
+        Confirmar
+    </button>
+</form>
 </body>
 </html>

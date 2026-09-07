@@ -1,8 +1,7 @@
 .footer {
     background: var(--color-white);
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 .footer a {
     display: inline-block;
