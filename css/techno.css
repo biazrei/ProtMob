@@ -29,9 +29,6 @@ gabrielle
     margin-top: var(--spacing-large);
 }
 
-.techno__posts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--spacing-medium);
-    margin-top: var(--spacing-large);
+.techno__posts .card {
+    min-height: 150px;
 }
