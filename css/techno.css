@@ -1,7 +1,5 @@
 gabrielle
-body {
-    background-color: red;
-} 
+ 
 .techno {
   pading: var(--spacing-large);
 }
@@ -34,4 +32,5 @@ body {
 
 .techno__posts .card {
     min-height: 150px;
+    justify-content: flex-end;
 }
