@@ -7,19 +7,17 @@
     height: 52px;
     box-sizing: border-box;
 }
-
+gabrielle
 .header__left {
     display: flex;
     align-items: center;
     gap: var(--spacing-medium);
 }
-
 .header__logo {
     font-size: var(--font-size-text);
     font-weight: var(--font-weight-bold);
     letter-spacing: 3px;
 }
-
 .header__menu {
     background: none;
     border: none;
@@ -28,7 +26,6 @@
     cursor: pointer;
     color: var(--color-text);
 }
-
 .header__right {
     display: flex;
     align-items: center;
@@ -45,7 +42,6 @@
     cursor: pointer;
     position: relative;
 }
-
 .header__search::after {
     content: "";
     position: absolute;
@@ -56,7 +52,6 @@
     right: -6px;
     bottom: -3px;
 }
-
 .header__profile {
     width: 24px;
     height: 24px;
@@ -67,7 +62,6 @@
     cursor: pointer;
     position: relative;
 }
-
 .header__profile::after {
     content: "";
     position: absolute;
