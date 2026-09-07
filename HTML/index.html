@@ -1,97 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HABIT - Techno</title>
+    <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/buttons.css">
-     <link rel="stylesheet" href="../css/variables.css">
-      <link rel="stylesheet" href="../css/header.css">
-       <link rel="stylesheet" href="../css/navigation.css">
-        <link rel="stylesheet" href="../css/card.css">
-         <link rel="stylesheet" href="../css/footer.css">
-<link rel="stylesheet" href="../css/footer.css">
-<link rel="stylesheet" href="../css/techno.css">
-    
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/card.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/techno.css">
 </head>
 <body>
-<header class="header">
-<div class=" header__left">
-<div class="header__logo"> HABIT </div>
-<nav class="navigation">
-           <a href="#">Início</a>
-            <a href="#">Páginas</a>
-            <a href="#">Destaques</a>
-            <a href="#">Assinar</a>
-            <a href="#">Admin</a>
-        </nav>
-    </div>
-    <div class="header__right">
-        <input
-            class="header__search"
-            type="text"
-            placeholder="Buscar...">
-        <button class="button button--secondary">
-            Buscar
-        </button>
-        <button class="button button--secondary">
-            Entrar
-        </button>
-    </div>
-</header>
-<main class="techno">
+    <header class="header">
+        <div class="header__left">
+            <button class="header__menu" aria-label="Abrir menu">☰</button>
+            <div class="header__logo">HABIT</div>
+        </div>
+        <div class="header__right">
+            <button class="header__search" aria-label="Buscar"></button>
+            <button class="header__profile" aria-label="Perfil"></button>
+        </div>
+    </header>
 
-    <h1 class="techno__title">
-        CATEGORIA: TECHNO
-    </h1>
+    <main class="techno">
+        <h1 class="techno__title">CATEGORIA: TECHNO</h1>
 
-<div class="techno__filters">
+        <div class="techno__filters">
+            <button class="button techno__filter"></button>
+            <button class="button techno__filter"></button>
+            <button class="button techno__filter"></button>
+            <button class="button techno__filter"></button>
+        </div>
 
-        <button class="button techno__filter"></button>
-        <button class="button techno__filter"></button>
-        <button class="button techno__filter"></button>
-        <button class="button techno__filter"></button>
+        <section class="techno__posts">
+            <a href="#" class="card">
+                <div class="techno__card-image"></div>
+                <h2 class="card__title">Título da postagem</h2>
+            </a>
+            <a href="#" class="card">
+                <div class="techno__card-image"></div>
+                <h2 class="card__title">Título da postagem</h2>
+            </a>
+            <a href="#" class="card">
+                <div class="techno__card-image"></div>
+                <h2 class="card__title">Título da postagem</h2>
+            </a>
+            <a href="#" class="card">
+                <div class="techno__card-image"></div>
+                <h2 class="card__title">Título da postagem</h2>
+            </a>
+            <a href="#" class="card">
+                <div class="techno__card-image"></div>
+                <h2 class="card__title">Título da postagem</h2>
+            </a>
+            <a href="#" class="card">
+                <div class="techno__card-image"></div>
+                <h2 class="card__title">Título da postagem</h2>
+            </a>
+        </section>
 
-    </div>
-    
-<section class="techno__posts">
+        <div class="techno__load">
+            <button class="button button--secondary">Carregar mais</button>
+        </div>
+    </main>
 
-    <a href="#" class="card">
-    <div class="techno__card-image"></div>
-    <h2 class="card__title">Título da postagem</h2>
-</a>
-</section>
-</main>
-<h2>Card normal</h2>
-
-<a href="#" class="card">
-    <img class="card__image" src="../docs/image.png" alt="Imagem">
-    <h3 class="card__title">Categoria</h3>
-</a>
-
-<h2>Card Featured</h2>
-
-<a href="#" class="card card--featured">
-    <img class="card__image" src="../docs/image.png" alt="Imagem">
-
-    <div class="card__content">
-        <h3 class="card__title">Título da postagem</h3>
-        <p class="card__text">Texto da postagem...</p>
-    </div>
-</a>
-
-<button class="button">button</button>
-<button class="button button--primary">primario</button>
-<button class="button button--secondary">secundaruo</button>
-
-<footer class="footer">
-
-    <a href="#">Instagram</a>
-    <a href="#">Work</a>
-    <a href="#">Bags</a>
-    <a href="#">Lamp</a>
-    <a href="#">Books</a>
-
-</footer>
+    <footer class="footer">
+        <a href="#">Instagram</a>
+        <a href="#">Work</a>
+        <a href="#">Bags</a>
+        <a href="#">Lamp</a>
+        <a href="#">Books</a>
+    </footer>
 </body>
 </html>
