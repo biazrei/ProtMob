@@ -1,3 +1,4 @@
+gabrielle
 .techno {
   pading: var(--spacing-large);
 }
@@ -7,4 +8,30 @@
     font-weight: var(--font-weight-bold);
     letter-spacing: 2px;
     margin: 0;
+}
+
+.techno__filters {
+    display: flex;
+    gap: var(--spacing-small);
+    margin-top: var(--spacing-medium);
+}
+
+.techno__filter {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
+
+.techno__posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-medium);
+    margin-top: var(--spacing-large);
+}
+
+.techno__posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-medium);
+    margin-top: var(--spacing-large);
 }
