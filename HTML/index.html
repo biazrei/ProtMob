@@ -7,29 +7,32 @@
     <link rel="stylesheet" href="../css/buttons.css">
      <link rel="stylesheet" href="../css/variables.css">
       <link rel="stylesheet" href="../css/header.css">
-       <link rel="stylesheet" href="../css/admin.css">
-        <link rel="stylesheet" href="../css/admin.css">
+       <link rel="stylesheet" href="../css/navigation.css">
+        <link rel="stylesheet" href="../css/card.css">
 </head>
 <body>
-   
+<h2>Card normal</h2>
 
-    <header class="header">
-    <div>HABIT</div>
+<a href="#" class="card">
+    <img class="card__image" src="../docs/image.png" alt="Imagem">
+    <h3 class="card__title">Categoria</h3>
+</a>
 
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Páginas</a>
-        <a href="#">Destaques</a>
-        <a href="#">Assinar</a>
-        <a href="#">Admin</a>
-    </nav>
 
-    <div>
-        <input type="text" placeholder="Buscar...">
-        <button class=" button--secondary">Buscar</button>
-        <button class=" button--secondary">Entrar</button>
+<h2>Card Featured</h2>
+
+<a href="#" class="card card--featured">
+    <img class="card__image" src="../docs/image.png" alt="Imagem">
+
+    <div class="card__content">
+        <h3 class="card__title">Título da postagem</h3>
+        <p class="card__text">Texto da postagem...</p>
     </div>
-</header>
+</a>
+
+<button class="button">button</button>
+<button class="button button--primary">primario</button>
+<button class="button button--secondary">secundaruo</button>
 
 
 </body>
