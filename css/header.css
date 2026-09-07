@@ -7,7 +7,6 @@
     height: 52px;
     box-sizing: border-box;
 }
-gabrielle
 .header__left {
     display: flex;
     align-items: center;
@@ -31,7 +30,6 @@ gabrielle
     align-items: center;
     gap: var(--spacing-medium);
 }
-
 .header__search {
     width: 22px;
     height: 22px;
