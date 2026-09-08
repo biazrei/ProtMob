@@ -1,14 +1,7 @@
-.recommendation {
-    display: flex;
-    flex-direction: column;
-}
 .recommendation__title {
     margin: 0;
     font-size: var(--font-size-subtitle);
     font-weight: var(--font-weight-bold);
-}
-.recommendation__list {
-    margin: 0;
 }
 .recommendation__list li {
     margin-bottom: var(--spacing-small);
