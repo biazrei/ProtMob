@@ -18,23 +18,5 @@ suas postagens e comentários. Administradores têm acesso a um painel para gere
 categorias, criar e revisar posts, moderar comentários, gerenciar usuários e definir as
 escolhas do editor.
 
-Telas elaboradas:
 
-Todas as 14 telas estão na pasta `/wireframes`.
 
-| Tela   |   Nome  |
-| --- ------------------- --- |
-| tela 1 | Home |
-| tela 2 | Categoria (Techno) |
-| tela 3 | Destaques |
-| tela 4 | Assinar Newsletter |
-| tela 5 | Admin — Categorias |
-| tela 6 | Admin — Criar Post |
-| tela 7 | Admin — Escolhas do Editor |
-| tela 8 | Admin — Usuários |
-| tela 9 | Admin — Fila de revisão |
-| tela 10 | Admin — Fila de comentários |
-| tela 11 | Resultados de busca |
-| tela 12 | Login |
-| tela 13 | Criar Conta |
-| tela 14 | Perfil |
