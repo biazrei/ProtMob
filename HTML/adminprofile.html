@@ -19,38 +19,56 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/profile.css">
     <link rel="stylesheet" href="../css/card-horizontal.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/categories.css">
+    <title>Admin e profile</title>
 </head>
 <body>
-    <h2>Indicators</h2>
+<h1>Perfil</h1>
 
-<section class="indicators">
+<div class="profile-layout">
+    <section class="profile">
 
-    <div class="indicators__item">
-        <span class="indicators__label">Posts</span>
-        <strong class="indicators__value">128</strong>
-    </div>
+        <img class="profile__image" src="../docs/image.png" alt="Foto de perfil">
 
-    <div class="indicators__item">
-        <span class="indicators__label">Visualizações</span>
-        <strong class="indicators__value">54k</strong>
-    </div>
+        <input class="input" type="text" placeholder="Nome">
 
-    <div class="indicators__item">
-        <span class="indicators__label">Inscritos</span>
-        <strong class="indicators__value">12k</strong>
-    </div>
+        <textarea class="input" placeholder="Bio"></textarea>
 
-    <div class="indicators__item">
-        <span class="indicators__label">Pendências</span>
-        <strong class="indicators__value">7</strong>
-    </div>
+        <button class="button button--primary">Salvar</button>
 
-</section>
+    </section>
 
-<h2>Menu</h2>
+    <section class="profile-posts">
 
+        <h2>Publicações</h2>
 
+        <article class="card--horizontal">
+
+            <div class="card__image-placeholder"></div>
+
+            <div>
+                <h3>Título da publicação</h3>
+                <p>Descrição da publicação...</p>
+            </div>
+
+        </article>
+
+        <article class="card--horizontal">
+
+            <div class="card__image-placeholder"></div>
+
+            <div>
+                <h3>Outra publicação</h3>
+                <p>Descrição da publicação...</p>
+            </div>
+
+        </article>
+
+    </section>
+
+</div>
+
+<h1>Administração</h1>
 
 <div class="admin-layout">
 
@@ -61,6 +79,7 @@
         </div>
 
         <ul class="menu__list">
+
             <li class="menu__item">
                 <a href="#">Categorias</a>
             </li>
@@ -84,6 +103,7 @@
             <li class="menu__item">
                 <a href="#">Fila de comentários</a>
             </li>
+
         </ul>
 
     </nav>
@@ -91,6 +111,7 @@
     <main class="admin-content">
 
         <section class="indicators">
+
             <div class="indicators__item">
                 <span class="indicators__label">Posts</span>
                 <strong class="indicators__value">128</strong>
@@ -110,13 +131,20 @@
                 <span class="indicators__label">Pendências</span>
                 <strong class="indicators__value">7</strong>
             </div>
+
         </section>
 
         <div class="admin-search">
-        <input class="input" type="text" placeholder="Buscar categoria...">
-    </div>
 
-    <div class="categories">
+            <input 
+                class="input" 
+                type="text" 
+                placeholder="Buscar categoria..."
+            >
+
+        </div>
+
+       <div class="categories">
     <div class="categories__item">
         <span>Notícias</span>
 
@@ -144,43 +172,22 @@
         </div>
     </div>
 </div>
-    </main>
-
-</div>
 
 
 
-<section class="profile">
-    <img class="profile__image" src="../docs/image.png" alt="Foto de perfil">
 
-    <input class="input" type="text" placeholder="Nome">
 
-    <textarea class="input" placeholder="Bio"></textarea>
 
-    <button class="button button--primary">Salvar</button>
-</section>
-<section class="profile-posts">
 
-    <h2>Publicações</h2>
 
-    <article class="card--horizontal">
-        <div class="card__image-placeholder"></div>
 
-        <div>
-            <h3>Título da publicação</h3>
-            <p>Descrição da publicação...</p>
-        </div>
-    </article>
 
-    <article class="card--horizontal">
-        <div class="card__image-placeholder"></div>
 
-        <div>
-            <h3>Outra publicação</h3>
-            <p>Descrição da publicação...</p>
-        </div>
-    </article>
 
-</section>
+
+
+
+
+
 </body>
 </html>

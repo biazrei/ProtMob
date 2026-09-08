@@ -4,22 +4,18 @@
     border-radius: 8px;
     padding: var(--spacing-medium);
 }
-
 .menu__header {
     margin-bottom: var(--spacing-medium);
     font-size: var(--font-size-text);
     font-weight: var(--font-weight-bold);
 }
-
 .menu__list {
     margin:0;
     padding: 0px 10px;
 }
-
 .menu__item {
     margin-bottom: var(--spacing-small);
 }
-
 .menu__item a {
     color: var(--color-text);
     text-decoration: none;
