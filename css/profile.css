@@ -1,0 +1,24 @@
+.profile-layout {
+    display: flex;
+    gap: var(--spacing-large);
+    padding: var(--spacing-large);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    width: 300px;
+}
+
+.profile-posts {
+    flex: 1;
+}
+
+.profile__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+

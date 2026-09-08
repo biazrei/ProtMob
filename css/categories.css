@@ -1,0 +1,13 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small);
+}
+
+.categories__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-small) 0;
+    border-bottom: 1px solid var(--color-border);
+}

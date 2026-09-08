@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="../css/navigation.css">
     <link rel="stylesheet" href="../css/card.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/home.css">
-  
+    <link rel="stylesheet" href="../css/admin.css">
     <link rel="stylesheet" href="../css/category-link.css">
     <link rel="stylesheet" href="../css/recommendation-list.css">
     <link rel="stylesheet" href="../css/featured-post.css">
    <link rel="stylesheet" href="../css/input.css">
    <link rel="stylesheet" href="../css/form.css">
+   <link rel="stylesheet" href="../css/indicators.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/card-horizontal.css">
 </head>
 <body>
 <header class="header">
@@ -120,10 +123,192 @@
         type="password"
         placeholder="Digite sua senha"
     >
-
+    <label class="checkbox">
+    <input type="checkbox">
+    Concordo em receber novidades por email
+</label> 
     <button class="button button--primary" type="submit">
         Confirmar
     </button>
 </form>
+
+
+<h2>Indicators</h2>
+
+<section class="indicators">
+
+    <div class="indicators__item">
+        <span class="indicators__label">Posts</span>
+        <strong class="indicators__value">128</strong>
+    </div>
+
+    <div class="indicators__item">
+        <span class="indicators__label">Visualizações</span>
+        <strong class="indicators__value">54k</strong>
+    </div>
+
+    <div class="indicators__item">
+        <span class="indicators__label">Inscritos</span>
+        <strong class="indicators__value">12k</strong>
+    </div>
+
+    <div class="indicators__item">
+        <span class="indicators__label">Pendências</span>
+        <strong class="indicators__value">7</strong>
+    </div>
+
+</section>
+
+<h2>Menu</h2>
+
+
+
+<div class="admin-layout">
+
+    <nav class="menu">
+
+        <div class="menu__header">
+            Menu
+        </div>
+
+        <ul class="menu__list">
+            <li class="menu__item">
+                <a href="#">Categorias</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#">Criar Post</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#">Escolhas do Editor</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#">Usuários</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#">Fila de revisão</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#">Fila de comentários</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main class="admin-content">
+
+        <section class="indicators">
+            <div class="indicators__item">
+                <span class="indicators__label">Posts</span>
+                <strong class="indicators__value">128</strong>
+            </div>
+
+            <div class="indicators__item">
+                <span class="indicators__label">Visualizações</span>
+                <strong class="indicators__value">54k</strong>
+            </div>
+
+            <div class="indicators__item">
+                <span class="indicators__label">Inscritos</span>
+                <strong class="indicators__value">12k</strong>
+            </div>
+
+            <div class="indicators__item">
+                <span class="indicators__label">Pendências</span>
+                <strong class="indicators__value">7</strong>
+            </div>
+        </section>
+
+        <div class="admin-search">
+        <input class="input" type="text" placeholder="Buscar categoria...">
+    </div>
+
+    <div class="categories">
+    <div class="categories__item">
+        <span>Notícias</span>
+
+        <div>
+            <button class="button button--secondary">Editar</button>
+            <button class="button button--secondary">Excluir</button>
+        </div>
+    </div>
+
+    <div class="categories__item">
+        <span>Tecnologia</span>
+
+        <div>
+            <button class="button button--secondary">Editar</button>
+            <button class="button button--secondary">Excluir</button>
+        </div>
+    </div>
+
+    <div class="categories__item">
+        <span>Entretenimento</span>
+
+        <div>
+            <button class="button button--secondary">Editar</button>
+            <button class="button button--secondary">Excluir</button>
+        </div>
+    </div>
+</div>
+    </main>
+
+</div>
+
+<form class="form">
+
+    <input class="input" type="text" placeholder="Título">
+
+    <textarea class="input" placeholder="Texto da postagem"></textarea>
+
+   <div class="form__row">
+    <input class="input" type="text" placeholder="Categorias">
+    <input class="input" type="text" placeholder="Tags">
+</div>
+
+    <div>
+        <button class="button button--secondary">Salvar rascunho</button>
+        <button class="button button--secondary">Enviar para revisão</button>
+        <button class="button button--primary">Publicar</button>
+    </div>
+
+</form>
+
+<section class="profile">
+    <img class="profile__image" src="../docs/image.png" alt="Foto de perfil">
+
+    <input class="input" type="text" placeholder="Nome">
+
+    <textarea class="input" placeholder="Bio"></textarea>
+
+    <button class="button button--primary">Salvar</button>
+</section>
+<section class="profile-posts">
+
+    <h2>Publicações</h2>
+
+    <article class="card--horizontal">
+        <div class="card__image-placeholder"></div>
+
+        <div>
+            <h3>Título da publicação</h3>
+            <p>Descrição da publicação...</p>
+        </div>
+    </article>
+
+    <article class="card--horizontal">
+        <div class="card__image-placeholder"></div>
+
+        <div>
+            <h3>Outra publicação</h3>
+            <p>Descrição da publicação...</p>
+        </div>
+    </article>
+
+</section>
 </body>
 </html>
