@@ -20,7 +20,6 @@ escolhas do editor.
 
 ## Estrutura de Telas
 
-## Lista de Telas
 - **tela 1:** Home
 - **tela 2:** Categoria (Techno)
 - **tela 3:** Destaques
