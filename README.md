@@ -1,7 +1,7 @@
 # Atividade Prototipo Mobile e BEM
 Protótipo Mobile e Organização dos Estilos com BEM
 
-##Integrantes
+## Integrantes
 
 - Beatriz Rei Ribeiro
 - Gabrielle Rodrigues de Alencar
@@ -9,7 +9,7 @@ Protótipo Mobile e Organização dos Estilos com BEM
 - Melissa Oliveira Dias
 - Pietro Silva Soares
 
-##Descrição da aplicação
+## Descrição da aplicação
 
 HABIT é uma aplicação de publicação de conteúdo (blog). O usuário navega por
 categorias, lê posts em destaque, pesquisa conteúdos e pode assinar
@@ -18,7 +18,7 @@ suas postagens e comentários. Administradores têm acesso a um painel para gere
 categorias, criar e revisar posts, moderar comentários, gerenciar usuários e definir as
 escolhas do editor.
 
-##Estrutura de Telas
+## Estrutura de Telas
 
 ## Lista de Telas
 - **tela 1:** Home
